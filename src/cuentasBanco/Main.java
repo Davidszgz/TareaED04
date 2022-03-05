@@ -9,7 +9,7 @@ public class Main {
 		cuentaPersonal = new CCuenta("Antonio López", "1000-2365-85-1230456789", 2500, 0);
 		saldoActual = cuentaPersonal.estado();
 		System.out.println("El saldo actual es" + saldoActual);
-		System.out.println("El doble del saldo es " + saldoActual*2);
+		System.out.println("El doble del saldo es " + saldoActual*2 + " Hurra Hurra");
 
 		operativaCuenta(cuentaPersonal, 0.0f);
 	}
